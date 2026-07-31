@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+# Environnements virtuels
+.venv/
+__pycache__/
+*.pyc
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+=======
+cat > .gitignore << 'EOF'
+# Environnements Python
+.venv/
+venv/
+
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers de session ou modèles temporaires
+session_etape*.pkl
+*.pkl
+
+# Résultats générés
+outputs/
+*.log
+
+# Configuration locale
+.vscode/
+
+# macOS
+.DS_Store
+EOF
+>>>>>>> origin/main
